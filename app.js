@@ -13,7 +13,7 @@ app.use('/', routes);  // transfering all the requests to routes
 const port = 5500;
 const hostName = 'localhost';
 
-const atlasDbUrl = 'mongodb+srv://abisek501:7TVG2K0IxHG0wTsE@cluster0.5rzfnfi.mongodb.net/Video-Streaming?retryWrites=true&w=majority'  // MongoDb Atlas Connection
+const atlasDbUrl = 'mongodb+srv://username:passwoed.mongodb.net/Video-Streaming?retryWrites=true&w=majority'  // MongoDb Atlas Connection
 
 mongoose.connect(atlasDbUrl,{useNewUrlParser: true, useUnifiedTopology: true})
 
